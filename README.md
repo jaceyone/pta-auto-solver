@@ -1,9 +1,15 @@
 # PTA Auto Solver — Claude Code Skill
+# PTA 自动求解器 — Claude 代码技能
 
-一键安装 PTA 自动解题 Skill（中英文双语版）：
+一键安装 PTA 自动解题 Skill（中版）：
 
 ```bash
-npx jaceyone/pta-auto-solver
+ npx skill add https://github.com/jaceyone/pta-auto-solver
+```
+一键安装 PTA 自动解题 Skill（英版）：
+
+```bash
+ npx skill-en add https://github.com/jaceyone/pta-auto-solver
 ```
 
 装完重启 Claude Code，说 **"做 PTA 题"** 即可使用。
@@ -17,7 +23,7 @@ npx playwright install chromium
 在 `~/.claude/settings.json` 中添加：
 
 ```json
-{
+{  {"
   "mcpServers": {
     "playwright": {
       "command": "npx",
