@@ -1,15 +1,12 @@
 # PTA Auto Solver — Claude Code Skill
 # PTA 自动求解器 — Claude 代码技能
+# PTA 自动求解器 — Claude 代码技能
 
 一键安装 PTA 自动解题 Skill（中版）：
+一键安装 PTA 自动解题技能（中文版）：
 
 ```bash
- npx skill add https://github.com/jaceyone/pta-auto-solver
-```
-一键安装 PTA 自动解题 Skill（英版）：
-
-```bash
- npx skill-en add https://github.com/jaceyone/pta-auto-solver
+ npx skills add jaceyone/pta-auto-solver
 ```
 
 装完重启 Claude Code，说 **"做 PTA 题"** 即可使用。
