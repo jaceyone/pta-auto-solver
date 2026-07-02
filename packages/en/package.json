@@ -8,7 +8,14 @@
   "files": ["bin/"],
   "type": "module",
   "license": "MIT",
-  "repository": "jaceyone/pta-auto-solver",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaceyone/pta-auto-solver.git"
+  },
+  "homepage": "https://github.com/jaceyone/pta-auto-solver",
+  "bugs": {
+    "url": "https://github.com/jaceyone/pta-auto-solver/issues"
+  },
   "publishConfig": {
     "access": "public"
   }
