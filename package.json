@@ -1,0 +1,14 @@
+{
+  "name": "pta-auto-solver",
+  "version": "1.0.0",
+  "description": "PTA Auto Solver — Claude Code Skill",
+  "bin": {
+    "pta-auto-solver": "./bin/install.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaceyone/pta-auto-solver.git"
+  }
+}
