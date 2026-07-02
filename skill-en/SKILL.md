@@ -90,7 +90,7 @@ For true-false, single-choice, and multiple-choice questions, directly click the
 Automatically check whether the current editor supports paste:
 
 - **Pasteable**: Paste the code directly and submit
-- **Not pasteable**: Use the CodeMirror 6 internal API injection (`content.cmTile.view.dispatch()`) to handle line breaks and indentation properly. See `scripts/inject_code.js` for the script and `references/codemirror.md` for the原理.
+- **Not pasteable**: Use the CodeMirror 6 internal API injection (`content.cmTile.view.dispatch()`) to handle line breaks and indentation properly. See `scripts/inject_code.js` for the script and `references/codemirror.md` for details.
 
 ### Image-Based Problems
 

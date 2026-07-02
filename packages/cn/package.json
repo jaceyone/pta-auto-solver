@@ -1,0 +1,15 @@
+{
+  "name": "@jaceyone/pta-auto-solver",
+  "version": "1.0.0",
+  "description": "PTA 自动解题 Skill — Claude Code 通过 Playwright 自动刷题",
+  "bin": {
+    "pta-auto-solver": "./bin/install.js"
+  },
+  "files": ["bin/"],
+  "type": "module",
+  "license": "MIT",
+  "repository": "jaceyone/pta-auto-solver",
+  "publishConfig": {
+    "access": "public"
+  }
+}
